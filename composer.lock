@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a2e7ee7bca3018da80e5683d8c53a631",
+    "content-hash": "f1e55bf267601be35ce44a82917d10f5",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -1253,6 +1253,24 @@
                 }
             ],
             "time": "2021-12-12T23:22:04+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/accordion-blocks",
+            "version": "1.5.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/accordion-blocks/",
+                "reference": "tags/1.5.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/accordion-blocks.1.5.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/accordion-blocks/"
         },
         {
             "name": "wpackagist-plugin/adminimize",
